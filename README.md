@@ -20,8 +20,24 @@ We are being given a CSV data set with 34,000 rows and Using the above libraries
 - Create and bin Columns with too many variables
 - Encode and merge the Dataframe
 - Use the Standard scaler to prep the data for use in the Neural Network
-- Create the Neural network model using Tensor flow (See below for settings)
+- Create the Neural network model using Tensor flow (See below for settings and results)
 
-![Neural Network](https://github.com/CaptCarmine/Credit_Risk_Analysis/blob/main/Images/Smote_Oversampling.png?raw=true)
+![Neural Network 1](https://github.com/CaptCarmine/Neural_Network_Charity_Analysis/blob/main/images/neural_network_attempt_1.png?raw=true)
 
-- Evaluate the model using created test data
+![Neural Network 1 Results](https://github.com/CaptCarmine/Neural_Network_Charity_Analysis/blob/main/images/neural_network_attempt_1_results.png?raw=true)
+
+- Evaluate the model using created test data and test additional models, for the second model I changed the number of Epochs to 400 and tested with the Tanh activation model
+
+![Neural Network 2](https://github.com/CaptCarmine/Neural_Network_Charity_Analysis/blob/main/images/neural_network_attempt_2.png?raw=true)
+
+![Neural Network 2 Results](https://github.com/CaptCarmine/Neural_Network_Charity_Analysis/blob/main/images/neural_network_attempt_2_results.png?raw=true)
+
+-Try a 3rd model where I modified the CSV further and changed the models, and epochs further
+
+![Neural Network 3](https://github.com/CaptCarmine/Neural_Network_Charity_Analysis/blob/main/images/neural_network_attempt_3.png?raw=true)
+
+![Neural Network 3 Results](https://github.com/CaptCarmine/Neural_Network_Charity_Analysis/blob/main/images/neural_network_attempt_3_results.png?raw=true)
+
+## Results
+
+Looking at the 3 different models which were attempted, it looks that further effort needs to be made at massaging the data, looking at fields which can be more significant in predicting successful outcomes.
